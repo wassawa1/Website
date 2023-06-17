@@ -18,3 +18,32 @@ h1 {
     padding: 0.5em;/*文字周りの余白*/
     border-radius: 0.5em;/*角丸*/
   }
+
+
+
+  /* https://qreat.tech/2712/ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 48px;
+  background-color: lightcyan;
+  box-sizing: border-box;
+  border: 8px solid blue;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: palegoldenrod;
+  box-sizing: border-box;
+  border: 8px solid green;
+}
